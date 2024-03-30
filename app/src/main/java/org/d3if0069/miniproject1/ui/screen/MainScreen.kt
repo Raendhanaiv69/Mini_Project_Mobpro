@@ -39,6 +39,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
@@ -91,6 +92,8 @@ fun ScreenContent(modifier: Modifier) {
     var selectedCurrency by rememberSaveable { mutableStateOf(currencyOptions[0]) }
 
     var conversionResult by rememberSaveable { mutableStateOf(0f) }
+
+    val context = LocalContext.current
 
     Column(
         modifier = modifier
@@ -176,8 +179,9 @@ fun ScreenContent(modifier: Modifier) {
             )
 
         ) {
-            Text("Convert")
-            
+            Text(text = stringResource(id = (R.string.Convert)))
+
+
         }
         if (conversionResult != 0f) {
             Divider(modifier = Modifier.padding(vertical = 8.dp), thickness = 1.dp)
@@ -185,6 +189,23 @@ fun ScreenContent(modifier: Modifier) {
                 text = "Result: $conversionResult $selectedCurrency",
                 style = MaterialTheme.typography.titleLarge
             )
+        }
+        Button(
+            onClick = {
+                      shareData(
+                          context = context,
+                          message = context.getString(R.string.share_template,
+                              amount, amountInDollar,conversionResult,selectedCurrency)
+                      )
+            },
+            modifier = modifier.padding(top = 8.dp),
+            contentPadding = PaddingValues(horizontal=32.dp, vertical=16.dp),
+                    colors = ButtonDefaults.buttonColors(
+                    containerColor = Color(0xFFFF8080),
+        )
+        ) {
+            Text(text = stringResource(id = (R.string.share)))
+
         }
     }
 }

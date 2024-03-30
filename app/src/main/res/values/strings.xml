@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Konversi Mata Uang</string>
     <string name="app_name_currency_converter">Konverter Mata Uang</string>
-    <string name="currency_converter_intro">Masukkan jumlah dalam Rupiah dan pilih mata uang tujuan untuk konversi.</string>
+    <string name="currency_converter_intro">Masukkan jumlah dalam Rupiah atau Dolar dan pilih mata uang tujuan untuk konversi.</string>
     <string name="amount_in_rupiah">Jumlah dalam Rupiah</string>
     <string name="amount_in_dolar">Jumlah dalam Dollar</string>
     <string name="convert_to">Konversi Ke</string>
@@ -10,10 +10,10 @@
     <string name="input_invalid">Input tidak valid</string>
     <string name="baht">Baht</string>
     <string name="won">Won</string>
+    <string name="Convert">Konversi</string>
     <string name="share">Bagikan</string>
-    <string name="share_template">Jumlah: %1$s Rupiah\nKonversi ke: %2$s\nHasil: %3$.2f %4$s</string>
-    <string name="bmi_intro">BMI, atau Body Mass Index merupakan cara untuk menentukan apakah berat badanmu ideal atau tidak. Cobalah sekarang!</string>
+    <string name="share_template">Jumlah: %1$s Rupiah\nJumlah: %2$s dolar\nHasil: %3$.2f %4$s</string>
     <string name="tentang_aplikasi">Tentang Aplikasi</string>
-    <string name="copyright">Hitung BMI merupakan sebuah aplikasi Android untuk menghitung body mass index (BMI) sehingga seseorang dapat mengetahui apakah berat badannya ideal, gemuk atau kurus. \n\nAplikasi ini dibuat untuk kelas Mobpro 1.\n\nCopyright @ 2021 - 2024 Indra Azimi.\nAll rights reserved.</string>
+    <string name="copyright">Konversi Mata Uang merupakan sebuah aplikasi Android yang memungkinkan pengguna untuk mengonversi nilai mata uang dari satu bentuk ke bentuk lainnya dengan mudah dan cepat. Aplikasi ini mendukung berbagai mata uang dunia, termasuk Dolar, Rupiah, Baht, dan Won, sehingga sangat berguna untuk perjalanan internasional, studi, atau kebutuhan bisnis.\n\nAplikasi ini dibuat untuk kelas Mobpro 1.\n\nCopyright @ 2021 - 2024 oleh \nRaendhana Ilmi Vadhiasih-6706220069.\nAll rights reserved.</string>
     <string name="kembali">Kembali</string>
 </resources>
