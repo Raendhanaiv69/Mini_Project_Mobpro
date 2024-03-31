@@ -35,13 +35,13 @@ fun AboutScreen(navController: NavController){
                     IconButton(onClick = {navController.popBackStack()}) {
                         Icon(
                             imageVector = Icons.Filled.ArrowBack,
-                            contentDescription = stringResource(R.string.kembali),
+                            contentDescription = stringResource(R.string.Back),
                             tint = Color(0xFFFFFFFF)
                             )
                     }
                 },
                 title = {
-                    Text(text = stringResource(id = R.string.tentang_aplikasi))
+                    Text(text = stringResource(id = R.string.About_aplikasi))
                 },
                 colors = TopAppBarDefaults.mediumTopAppBarColors(
                     containerColor = Color(0xFFFF8080),

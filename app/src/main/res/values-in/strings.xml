@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Konversi mata uang</string>
+    <string name="converter_intro">Masukkan jumlah dalam Rupiah atau Dolar dan pilih mata uang tujuan konversi.</string>
+    <string name="convert_to">Konversi ke</string>
+    <string name="result">Hasil</string>
+    <string name="input_invalid">masukan tidak valid</string>
+    <string name="baht">baht</string>
+    <string name="won">Won</string>
+    <string name="Convert">konversi</string>
+    <string name="share">Bagikan</string>
+    <string name="share_template">Bagikan Template</string>
+    <string name="About_aplikasi">Tentang Aplikasi</string>
+    <string name="copyright">hakcipta</string>
+    <string name="Back">Kembali</string>
+    <string name="amount_rupiah">Jumlah dalam rupiah</string>
+    <string name="amount_dolar">Jumlah dalam dolar</string>
+</resources>

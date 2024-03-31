@@ -1,5 +1,6 @@
 package org.d3if0069.miniproject1.ui.screen
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.content.res.Configuration
@@ -68,7 +69,7 @@ fun MainScreen(navController: NavHostController){
                     IconButton(onClick = {navController.navigate(Screen.About.route)}) {
                         Icon(
                             imageVector =Icons.Outlined.Info,
-                            contentDescription = stringResource(R.string.tentang_aplikasi),
+                            contentDescription = stringResource(R.string.About_aplikasi),
                             tint = Color(0xFFFFFFFF),
                         )
                     }
@@ -80,6 +81,7 @@ fun MainScreen(navController: NavHostController){
     }
 }
 
+@SuppressLint("StringFormatInvalid")
 @Composable
 fun ScreenContent(modifier: Modifier) {
     var amount by rememberSaveable { mutableStateOf("") }
@@ -103,14 +105,14 @@ fun ScreenContent(modifier: Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = stringResource(id = R.string.currency_converter_intro),
+            text = stringResource(id = R.string.converter_intro),
             style = MaterialTheme.typography.bodyLarge,
             modifier = Modifier.fillMaxWidth()
         )
         OutlinedTextField(
             value = amount,
             onValueChange = { amount = it },
-            label = { Text(text = stringResource(R.string.amount_in_rupiah)) },
+            label = { Text(text = stringResource(R.string.amount_rupiah)) },
             trailingIcon = { IconPicker(amountError) },
             supportingText = { ErrorHint(amountError) },
             singleLine = true,
@@ -126,7 +128,7 @@ fun ScreenContent(modifier: Modifier) {
                 amountInDollar = it
                 amountInDollarError = false
             },
-            label = { Text(text = stringResource(R.string.amount_in_dolar)) },
+            label = { Text(text = stringResource(R.string.amount_dolar)) },
             trailingIcon = {
                 if (amountInDollarError) Icon(imageVector = Icons.Filled.Warning, contentDescription = null)
             },

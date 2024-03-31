@@ -1,19 +1,17 @@
 <resources>
-    <string name="app_name">Konversi Mata Uang</string>
-    <string name="app_name_currency_converter">Konverter Mata Uang</string>
-    <string name="currency_converter_intro">Masukkan jumlah dalam Rupiah atau Dolar dan pilih mata uang tujuan untuk konversi.</string>
-    <string name="amount_in_rupiah">Jumlah dalam Rupiah</string>
-    <string name="amount_in_dolar">Jumlah dalam Dollar</string>
-    <string name="convert_to">Konversi Ke</string>
-    <string name="convert">Konversi</string>
-    <string name="result">Hasil: %1$.2f %2$s</string>
-    <string name="input_invalid">Input tidak valid</string>
+    <string name="app_name">Currency conversion</string>
+    <string name="converter_intro">Enter the amount in Rupiah or Dollars and select the destination currency for conversion.</string>
+    <string name="amount_rupiah">amount in rupiah</string>
+    <string name="amount_dolar">amount in dolar</string>
+    <string name="convert_to">convert to</string>
+    <string name="result">Result: %1$.2f %2$s</string>
+    <string name="input_invalid">Invalid Input</string>
     <string name="baht">Baht</string>
     <string name="won">Won</string>
-    <string name="Convert">Konversi</string>
-    <string name="share">Bagikan</string>
-    <string name="share_template">Jumlah: %1$s Rupiah\nJumlah: %2$s dolar\nHasil: %3$.2f %4$s</string>
-    <string name="tentang_aplikasi">Tentang Aplikasi</string>
-    <string name="copyright">Konversi Mata Uang merupakan sebuah aplikasi Android yang memungkinkan pengguna untuk mengonversi nilai mata uang dari satu bentuk ke bentuk lainnya dengan mudah dan cepat. Aplikasi ini mendukung berbagai mata uang dunia, termasuk Dolar, Rupiah, Baht, dan Won, sehingga sangat berguna untuk perjalanan internasional, studi, atau kebutuhan bisnis.\n\nAplikasi ini dibuat untuk kelas Mobpro 1.\n\nCopyright @ 2021 - 2024 oleh \nRaendhana Ilmi Vadhiasih-6706220069.\nAll rights reserved.</string>
-    <string name="kembali">Kembali</string>
+    <string name="Convert">conversion</string>
+    <string name="share">Share</string>
+    <string name="share_template">Amount: %1$s Rupiah\nJumlah: %2$s dolar\nResult: %3$.2f %4$s</string>
+    <string name="About_aplikasi">About the Application</string>
+    <string name="copyright">Currency Conversion is an Android application that allows users to convert currency values ​​from one form to another easily and quickly. This application supports various world currencies, including Dollars, Rupiah, Baht, and Won, making it very useful for international travel, study, or business needs.\n\nThis application was created for Mobpro 1 class.\n\nCopyright @ 2021 - 2024 by \nRaendhana Ilmi Vadhiasih-6706220069.\nAll rights reserved.</string>
+    <string name="Back">Back</string>
 </resources>
