@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import org.d3if0069.miniproject1.model.gambar
 import org.d3if0069.miniproject1.ui.theme.MiniProject1Theme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,6 +23,7 @@ class MainActivity : ComponentActivity() {
 //                    MainScreen()
                     SetupNavGrapgh()
                 }
+
             }
         }
     }

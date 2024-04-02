@@ -49,6 +49,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import org.d3if0069.miniproject1.R
+import org.d3if0069.miniproject1.model.gambar
 import org.d3if0069.miniproject1.navigation.Screen
 import org.d3if0069.miniproject1.ui.theme.MiniProject1Theme
 
@@ -258,6 +259,13 @@ private fun shareData(context: Context, message: String){
     if (shareIntent.resolveActivity(context.packageManager) != null) {
         context.startActivity(shareIntent)
     }
+}
+
+private val data = getData()
+private fun getData(): List<gambar> {
+    return listOf(
+        gambar("drawable/akuu", R.drawable.akuu),
+    )
 }
 
 @Preview(showBackground = true)
