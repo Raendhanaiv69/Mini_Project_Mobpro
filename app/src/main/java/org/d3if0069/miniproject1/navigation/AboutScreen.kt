@@ -9,6 +9,8 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -56,14 +58,20 @@ fun AboutScreen(navController: NavController){
         }
 
     )
+
     { padding ->
         Column (
             modifier = Modifier
                 .padding(padding)
-                .padding(16.dp).fillMaxSize(),
+                .padding(16.dp).fillMaxSize().verticalScroll(rememberScrollState()),
             verticalArrangement = Arrangement.Top,
             horizontalAlignment = Alignment.CenterHorizontally
+
         ) {
+            Text(
+                text = stringResource(R.string.Title),
+                modifier = Modifier.padding(bottom = 10.dp)
+            )
             Image(
                 painter = painterResource(id = R.drawable.akuu),
                 contentDescription = stringResource(R.string.image),
@@ -72,7 +80,7 @@ fun AboutScreen(navController: NavController){
 
             Text(
                 text = stringResource(R.string.copyright),
-                modifier = Modifier.padding(top = 20 .dp)
+                modifier = Modifier.padding(top = 20 .dp, bottom = 16.dp)
             )
 
         }

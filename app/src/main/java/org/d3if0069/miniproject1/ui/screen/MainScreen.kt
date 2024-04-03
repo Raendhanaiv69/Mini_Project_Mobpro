@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.content.res.Configuration
+import android.widget.Toast
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -15,12 +16,14 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material.icons.outlined.Info
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Divider
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -48,13 +51,13 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import org.d3if0069.miniproject1.R
-import org.d3if0069.miniproject1.model.gambar
 import org.d3if0069.miniproject1.navigation.Screen
 import org.d3if0069.miniproject1.ui.theme.MiniProject1Theme
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MainScreen(navController: NavHostController){
+    val context = LocalContext.current
     Scaffold(
         topBar = {
             TopAppBar(
@@ -75,7 +78,22 @@ fun MainScreen(navController: NavHostController){
                     }
                 }
             )
+        },
+        floatingActionButton = {
+            FloatingActionButton(onClick = {
+                Toast.makeText(context, R.string.add_error, Toast.LENGTH_SHORT).show()
+            },
+                containerColor = Color(0xFFFF8080),
+                ) {
+                Icon(
+                    imageVector = Icons.Filled.Add,
+                    contentDescription = stringResource(R.string.add_lg),
+                    tint = Color(0xFFFFFFFF)
+                )
+            }
         }
+
+
     ) { padding ->
         ScreenContent(Modifier.padding(padding))
     }
@@ -260,12 +278,6 @@ private fun shareData(context: Context, message: String){
     }
 }
 
-private val data = getData()
-private fun getData(): List<gambar> {
-    return listOf(
-        gambar("drawable/akuu", R.drawable.akuu),
-    )
-}
 
 @Preview(showBackground = true)
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_YES, showBackground = true)

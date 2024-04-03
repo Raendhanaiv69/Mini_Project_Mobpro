@@ -11,9 +11,12 @@
     <string name="share">Bagikan</string>
     <string name="share_template">Bagikan Template</string>
     <string name="About_aplikasi">Tentang Aplikasi</string>
-    <string name="copyright">Konversi Mata Uang ialah aplikasi yang diciptakan oleh Raendhana Ilmi Vadhiasih, dengan tujuan digunakan sebagai assesmen Pemrograman untuk perangkat bergerak \n \nKonversi Mata Uang merupakan aplikasi Android yang memungkinkan penggunanya mengkonversi nilai mata uang dari satu bentuk ke bentuk lainnya dengan mudah dan cepat. Aplikasi ini mendukung berbagai mata uang dunia, antara lain Dolar, Rupiah, Baht, dan Won sehingga sangat berguna untuk kebutuhan perjalanan, studi, atau bisnis internasional.\n\nAplikasi ini dibuat untuk kelas Mobpro 1.\n\nHak Cipta @ 2021 - 2024 oleh \nRaendhana Ilmi Vadhiasih-6706220069.\nHak cipta dilindungi undang-undang</string>
+    <string name="copyright">Halo! Nama saya Raendhana Ilmi Vadhiasih\n seorang Mahasiswi Telkom University, D3 Rekayasa Perangkat Lunak Aplikasi di Bandung, Indonesia.  Dengan latar belakang dalam jurusan ini yang sedang belajar beberapa banyak hal, saya bersemangat untuk membawa ide-ide kreatif menjadi kenyataan.termaksut Aplikasi Konversi Mata Uang ialah aplikasi yang diciptakan dengan tujuan digunakan sebagai assesmen Pemrograman untuk perangkat bergerak. \n \n Hubungi Saya\n-Email : raendhana@gmail.com\n-Instagram : raendhanaiv_\n\n Konversi Mata Uang merupakan aplikasi Android yang memungkinkan penggunanya mengkonversi nilai mata uang dari satu bentuk ke bentuk lainnya dengan mudah dan cepat. Aplikasi ini mendukung berbagai mata uang dunia, antara lain Dolar, Rupiah, Baht, dan Won sehingga sangat berguna untuk kebutuhan perjalanan, studi, atau bisnis internasional.\n\nAplikasi ini dibuat untuk kelas Mobpro 1.\n\nHak Cipta @ 2021 - 2024 oleh \nRaendhana Ilmi Vadhiasih-6706220069.\nHak cipta dilindungi undang-undang</string>
     <string name="Back">Kembali</string>
     <string name="amount_rupiah">Jumlah dalam rupiah</string>
     <string name="amount_dolar">Jumlah dalam dolar</string>
     <string name="image">"Gambar %1$s "</string>
+    <string name="Title">Tentang Saya</string>
+    <string name="add_lg">Tambah bahasa</string>
+    <string name="add_error">Belum bisa tambah Bahasa</string>
 </resources>

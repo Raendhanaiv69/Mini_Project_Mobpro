@@ -12,7 +12,10 @@
     <string name="share">Share</string>
     <string name="share_template">Amount: %1$s Rupiah\nJumlah: %2$s dolar\nResult: %3$.2f %4$s</string>
     <string name="About_aplikasi">About the Application</string>
-    <string name="copyright">Currency Conversion is an application created by Raendhana Ilmi Vadhiasih, with the aim of being used as a programming assessment for mobile devices \n\n Currency Conversion is an Android application that allows users to convert currency values from one form to another easily and quickly. This application supports various world currencies, including Dollars, Rupiah, Baht and Won so it is very useful for travel, study or international business needs.\n\nThis application was created for Mobpro class 1.\n\nCopyright @ 2021 - 2024 by \nRaendhana Ilmi Vadhiasih-6706220069.\nAll rights reserved</string>
+    <string name="copyright">Hello! My name is Raendhana Ilmi Vadhiasih, a Telkom University student, D3 Application Software Engineering in Bandung, Indonesia. With a background in this department of learning many things, I am excited to bring creative ideas into reality. This includes the Currency Conversion Application, which is an application created with the aim of being used as a programming assessment for mobile devices. \n\n Contact Me\n-Email : raendhana@gmail.com\n-Instagram : raendhanaiv_\n\n Currency Conversion is an Android application that allows users to convert currency values from one form to another easily and quickly. This application supports various world currencies, including Dollars, Rupiah, Baht and Won so it is very useful for travel, study or international business needs.\n\nThis application was created for Mobpro class 1.\n\nCopyright @ 2021 - 2024 by \nRaendhana Ilmi Vadhiasih-6706220069.\nAll rights reserved</string>
     <string name="Back">Back</string>
     <string name="image">Gambar %1$s </string>
+    <string name="Title">About Me</string>
+    <string name="add_lg">Add Language</string>
+    <string name="add_error">Cant add languages yet</string>
 </resources>
